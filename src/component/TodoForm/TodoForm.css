@@ -1,0 +1,31 @@
+.form {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.form .control-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.control-input .input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0.4rem;
+}
+
+.form .btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+}
