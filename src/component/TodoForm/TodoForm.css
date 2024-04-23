@@ -11,7 +11,9 @@
   border-radius: 5px;
 }
 
-.control-input .input {
+.control-input .input,
+.date .date-input,
+.completed {
   width: 100%;
   border: none;
   outline: none;
@@ -28,4 +30,15 @@
   color: #fff;
   cursor: pointer;
   margin-top: 1rem;
+}
+
+.form .date {
+  margin: 1rem 0;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.completed {
+  width: 100%;
 }
